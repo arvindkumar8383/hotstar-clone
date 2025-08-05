@@ -19,3 +19,5 @@ A simple and responsive **Hotstar UI Clone** created using HTML, CSS, and JavaSc
 - **HTML5** – Page Structure
 - **CSS3** – Styling and Responsive Design
 - **JavaScript** – (if used) for interactivity
+
+Live Site Link:- https://arvindkumar8383.github.io/hotstar-clone/
