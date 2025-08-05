@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Disney+</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" class="brand-logo" alt="logo" />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <li class="nav-items"><a href="#">Movies</a></li>
+        <li class="nav-items"><a href="#">Sports</a></li>
+        <li class="nav-items"><a href="#">Premium</a></li>
+      </ul>
+      <div class="right-container">
+        <input type="text" class="search-box" placeholder="Search" />
+        <button class="sub-btn">Subscribe</button>
+        <a href="#" class="login-link">Login</a>
+      </div>
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <!-- <div class="slider">
+          <div class="slide-content">
+            <h1 class="movie-title">Loki</h1>
+            <p class="movie-des">Really an amazing movie</p>
+          </div>
+        <img src="images/slider 1.png" alt="loki slider" />
+        </div>  -->
+      </div>
+    </div>
+
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="images/disney.png" class="video-card-image" alt="" />
+        <video src="videos/disney.mp4" mute loop class="card-video"></video>
+      </div>
+
+      <div class="video-card">
+        <img src="images/pixar.png" class="video-card-image" alt="" />
+        <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+      </div>
+
+      <div class="video-card">
+        <img src="images/marvel.png" class="video-card-image" alt="" />
+        <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+      </div>
+
+      <div class="video-card">
+        <img src="images/star-wars.png" class="video-card-image" alt="" />
+        <video src="videos/star-wars.mp4" mute loop class="card-video"></video>
+      </div>
+
+      <div class="video-card">
+        <img src="images/geographic.png" class="video-card-image" alt="" />
+        <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+      </div>
+    </div>
+    
+    
+    <h1 class="title">Recommended For You : )</h1>
+    <div class="movies-lists">
+      <div class="card-container">
+        <div class="card">
+           <img src="images/poster 1.png" class="card-img" alt="poster 1">
+          <a href="movie_load/Loki/index.html">
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="des">
+              Loki, the God of Mischief embark on an adventure that takes place after the events of "Avengers: Endgame."       
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+        
+
+        <div class="card">
+          <img src="images/poster 2.png" class="card-img" alt="poster 2" />
+          <a href="movie_load/Mulan/index.html">
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="des">
+              A young Chinese maiden disguises herself as a male warrior in order to save her father. 
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+           </a>
+        </div>
+
+	<div class="card">
+          <img src="images/Titanic.jpg" class="card-img" alt="poster 11" />
+          <a href="movie_load/Titanic/index.html">
+          <div class="card-body">
+            <h2 class="name">Titanic</h2>
+            <h6 class="des">
+              A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="images/poster 3.png" class="card-img" alt="poster 3" />
+          <a href="movie_load/Falcon/index.html">
+          <div class="card-body">
+            <h2 class="name">The Falcon And The WInter Soldier</h2>
+            <h6 class="des">
+              Following the events of 'Avengers: Endgame,' Falcon and Winter Soldier team up in a global adventure that tests their abilities.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="images/poster 4.png" class="card-img" alt="poster 4" />
+          <a href="movie_load/Endgame/index.html">
+          <div class="card-body">
+            <h2 class="name">Avengers Endgame</h2>
+            <h6 class="des">
+              With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="images/poster 5.png" class="card-img" alt="poster 5" />
+          <a href="movie_load/Thor/index.html">
+          <div class="card-body">
+            <h2 class="name">Thor Ragnarock</h2>
+            <h6 class="des">
+              Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+	<div class="card">
+          <img src="images/Joker.jpg" class="card-img" alt="poster 11" />
+          <a href="movie_load/Joker/index.html">
+          <div class="card-body">
+            <h2 class="name">Joker</h2>
+            <h6 class="des">
+              A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+
+
+        <div class="card">
+          <img src="images/poster 6.png" class="card-img" alt="poster 6" />
+          <a href="movie_load/Avengers/index.html">
+          <div class="card-body">
+            <h2 class="name">Avengers</h2>
+            <h6 class="des">
+              Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="images/poster 7.png" class="card-img" alt="poster 7" />
+          <a href="movie_load/Pirates/index.html">
+          <div class="card-body">
+            <h2 class="name">Pirates</h2>
+            <h6 class="des">
+              Blacksmith Will Turner teams up with eccentric pirate "Captain" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+	<div class="card">
+          <img src="images/IT.jpg" class="card-img" alt="poster 7" />
+          <a href="movie_load/IT/index.html">
+          <div class="card-body">
+            <h2 class="name">IT</h2>
+            <h6 class="des">
+              a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="card">
+          <img src="images/poster 8.png" class="card-img" alt="poster 8" />
+          <a href="movie_load/Soul/index.html">
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="des">
+              After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+        
+         
+        <div class="card">
+          <img src="images/poster 9.png" class="card-img" alt="poster 9" />
+          <a href="movie_load/Raya/index.html">
+          <div class="card-body">
+            <h2 class="name">Rava</h2>
+            <h6 class="des">
+              When the titular antagonist of an action game takes on physical form, it's only the game's less powerful protagonist who can save his creator's famil.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+         <div class="card">
+          <img src="images/fios.jpg" class="card-img" alt="poster 11" />
+          <a href="movie_load/Fault/index.html">
+          <div class="card-body">
+            <h2 class="name">Fault In Our Stars</h2>
+            <h6 class="des">
+              Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        
+        
+        <div class="card">
+          <img src="images/poster 10.png" class="card-img" alt="poster 10" />
+          <a href="movie_load/Luca/index.html">
+          <div class="card-body">
+            <h2 class="name">Luka</h2>
+            <h6 class="des">
+              On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+            </a>
+          </div>
+        </div>
+
+  
+        <div class="card">
+          <img src="images/poster 11.png" class="card-img" alt="poster 11" />
+          <a href="movie_load/Ford/index.html">
+          <div class="card-body">
+            <h2 class="name">Ford vs Ferrari</h2>
+            <h6 class="des">
+              American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+	<div class="card">
+          <img src="images/suicide squad.jpg" class="card-img" alt="poster 11" />
+          <a href="movie_load/Suicide/index.html">
+          <div class="card-body">
+            <h2 class="name">Suicide Squad</h2>
+            <h6 class="des">
+              A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="images/poster 12.png" class="card-img" alt="poster 12" />
+          <a href="movie_load/Dark/index.html">
+          <div class="card-body">
+            <h2 class="name">Dark Pheonix</h2>
+            <h6 class="des">
+              a Dark Phoenix, causing the X-Men to decide if her life is worth more than all of humanity..
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+   
+   
+   
+    
+    <br>
+    
+  
+   
+   
+   
+   
+    
+   <h1 class="title">Popular Movies</h1>
+    <div class="movies-lists">
+      <div class="card-container">
+        
+        
+        
+        <div class="card">
+          <img src="images/Jersey.jpg" class="card-img" alt="poster 1" />
+          <a href="popular_movie/1/index.html">
+          <div class="card-body">
+            <h2 class="name">Jersey</h2>
+            <h6 class="des">
+              A cricketer who quits cricket decides to revive his career at the age of 36 for his sons dream and prove his ability.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+       	</div>
+
+       
+       
+       
+       	<div class="card">
+          <img src="images/adhm.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/2/index.html">
+          <div class="card-body">
+            <h2 class="name">Ae Dil Hai Mushkil</h2>
+            <h6 class="des">
+              It is the journey of two characters, Alizeh and Ayan, as they navigate life, love and heartbreak.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+        
+        
+        
+       
+        <div class="card">
+          <img src="images/96.jpg" class="card-img" alt="poster 2" />
+          <a href="popular_movie/3/index.html">
+          <div class="card-body">
+            <h2 class="name">96</h2>
+            <h6 class="des">
+              Two high school sweethearts meet at a reunion after 22 years and reminisce about their past.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+
+
+	<div class="card">
+          <img src="images/Jab We Met.jpg" class="card-img" alt="poster 6" />
+          <a href="popular_movie/4/index.html">
+          <div class="card-body">
+            <h2 class="name">Jab We Met</h2>
+            <h6 class="des">
+              A depressed wealthy businessman finds his life changing after he meets a spunky and care-free young woman.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+        
+        
+        <div class="card">
+          <img src="images/2states.jpeg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/5/index.html">
+          <div class="card-body">
+            <h2 class="name">2 States</h2>
+            <h6 class="des">
+              This movie chronicles how Chetan met his wife and the difficulties they faced due to their cultural differences.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+
+
+
+        <div class="card">
+          <img src="images/Arjun Reddy.jpg" class="card-img" alt="poster 12" />
+          <a href="popular_movie/6/index.html">
+          <div class="card-body">
+            <h2 class="name">Arjun Reddy</h2>
+            <h6 class="des">
+              Arjun Reddy, a short tempered house surgeon gets used to drugs and drinks when his girlfriend is forced to marry another person.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+       
+       
+       
+       	<div class="card">
+          <img src="images/Rockstar2.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/7/index.html">
+          <div class="card-body">
+            <h2 class="name">Rockstar</h2>
+            <h6 class="des">
+              Janardhan Jakhar chases his dreams of becoming a big Rock star, during which he falls in love with Heer..
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+        
+        
+        
+        <div class="card">
+          <img src="images/Hridyam.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/8/index.html">
+          <div class="card-body">
+            <h2 class="name">Hridyam</h2>
+            <h6 class="des">
+              Tragic love story.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+        
+        
+        <div class="card">
+          <img src="images/Luka Chupi.jpg" class="card-img" alt="poster 3" />
+          <a href="popular_movie/9/index.html">
+          <div class="card-body">
+            <h2 class="name">Lukka Chupi</h2>
+            <h6 class="des">
+              Pretending to be married in order to cohabitate, a small-town couple lands in endless awkward situations to hide the truth from their orthodox families.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+        
+        
+        
+        <div class="card">
+          <img src="images/yjhd.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/10/index.html">
+          <div class="card-body">
+            <h2 class="name">Yeh Jawani Hai Deewani</h2>
+            <h6 class="des">
+              Kabir and Naina bond during a trekking trip. Before Naina can express herself, Kabir leaves India to pursue his career. They meet again years later, but he still cherishes his dreams more than bonds..
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </h>
+        </div>
+       
+       
+        
+
+	
+	
+	<div class="card">
+          <img src="images/Dear Comrade.jpg" class="card-img" alt="poster 8" />
+          <a href="popular_movie/11/index.html">
+          <div class="card-body">
+            <h2 class="name">Dear Comrade</h2>
+            <h6 class="des">
+              A hot-blooded student union leader falls for a state-level cricketer but his anger management issues and violent streak threatens to derail their love story.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+
+
+	
+
+
+
+
+
+        <div class="card">
+          <img src="images/Ok Jaanu.jpg" class="card-img" alt="poster 4" />
+          <a href="popular_movie/12/index.html">
+          <div class="card-body">
+            <h2 class="name">OK Jaanu</h2>
+            <h6 class="des">
+              Adi and Tara move to Mumbai to pursue their dreams. A chance meeting sparks off a heady, no strings attached romance until their careers pull them apart.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+      
+        <div class="card">
+          <img src="images/wfl.jpg" class="card-img" alt="poster 10" />
+          <a href="popular_movie/13/index.html">
+          <div class="card-body">
+            <h2 class="name">World Famous Lover</h2>
+            <h6 class="des">
+              a middle-class couple in a small town; Gautham, a youngster romancing in Paris with Iza, Union Leader Srinu in love with his boss lady, and a first college romance.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+      
+        <div class="card">
+          <img src="images/Lekh.jpg" class="card-img" alt="poster 9" />
+          <a href="popular_movie/14/index.html">
+          <div class="card-body">
+            <h2 class="name">Lekh</h2>
+            <h6 class="des">
+              Fate draws high-school sweethearts, Rajvir and Ronak apart only to bring the star-crossed lovers eye to eye again as adults.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+       <div class="card">
+          <img src="images/mnik.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/15/index.html">
+          <div class="card-body">
+            <h2 class="name">My Name Is Khan</h2>
+            <h6 class="des">
+              An Indian Muslim man with Asperger's syndrome takes a challenge to speak to the President of the United States seriously and embarks on a cross-country journey.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+      
+       <div class="card">
+          <img src="images/9 Hours.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/16/index.html">
+          <div class="card-body">
+            <h2 class="name">9 Hours</h2>
+            <h6 class="des">
+              Three prisoners escape from Hyderabad Central Jail to form three teams to loot three banks.               
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+        
+       
+        
+        
+        
+        
+        <div class="card">
+          <img src="images/Sanam Teri Kasam.jpg" class="card-img" alt="poster 11" />
+          <a href="popular_movie/17/index.html">
+          <div class="card-body">
+            <h2 class="name">Sanam Teri Kasam</h2>
+            <h6 class="des">
+              After being disowned by her family, an awkward librarian relies on the help of her brooding neighbour.
+            </h6>
+            <button class="watchlist-btn">Add to watchlist</button>
+          </div>
+          </a>
+        </div>
+
+	
+        </div>
+        </div>
+        
+    <script src="index.js" async></script>
+  </body>
+</html>
